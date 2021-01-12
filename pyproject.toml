@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "voluntold"
+version = "0.1.0"
+description = ""
+authors = ["Dario Thornhill <dario.thornhill@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+slackclient = "^2.9.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+mypy = "^0.790"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
