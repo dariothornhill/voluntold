@@ -7,10 +7,12 @@ authors = ["Dario Thornhill <dario.thornhill@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 slackclient = "^2.9.3"
+python-dotenv = "^0.15.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.1"
 mypy = "^0.790"
+black = "^20.8b1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

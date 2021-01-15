@@ -6,16 +6,21 @@ Randomly choose 1 student
 Randomly choose 1 student from a dwindling pool
 
 TODO
-[ ] Release 1 user stories
-[ ] Choose 1
-[ ] Choose 1 from pool
+[x] Release 1 user stories
+[x] Choose 1
+[x] Choose 1 from pool
 [ ] Connect to Slack
 [ ] Register self
 [ ] Register Student
 [ ] Unregister Student
-[ ] Choose pairs
-[ ] Choose groups of n
-[ ] Choose n groups
+[x] Choose pairs
+[x] Choose groups of n
+[x] Choose n groups
+
+## Slack Setup
+Bots API - Scopes
+- chat:write
+- channel:join
 
 Future work
 
