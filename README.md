@@ -1,4 +1,4 @@
-# An app for selecting, pairing and grouping students, usually against their will...
+# An app for selecting, pairing and grouping students, usually against their will
 
 Features
 Connect to class slack channel
@@ -18,5 +18,6 @@ TODO
 [ ] Choose n groups
 
 Future work
+
 - Zoom App Integration
 - Attendence filter
