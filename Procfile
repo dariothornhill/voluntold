@@ -1,0 +1,1 @@
+web: python -m voluntold.slack_client
