@@ -26,11 +26,13 @@ def test_group_of(names):
     assert len(actual) == 6
     assert names.__contains__(actual[0][0])
 
-
+# TODO implement better grouping algorithm
 def test_n_groups(names):
-    actual = n_groups(7, names)
-    assert len(actual) == 7
-    assert len(actual[-1]) == 1
+    actual = n_groups(7, names) # 7 groups from 12 people
+    assert len(actual) == 7 # expect 7 groups
+    assert len(actual[-1]) == 1 # expect last group to have 1
+    assert len(actual[-2]) == 1 # expect second last group to have 1
+    assert len(actual[-3]) == 2 # expect 5th group to have 2
 
     assert names.__contains__(actual[0][0])
 
@@ -49,5 +51,5 @@ def names():
         "Barney",
         "Wilma",
         "Betty",
-        "Bam Bam",
+        "Bam Bam", # 12
     ]
