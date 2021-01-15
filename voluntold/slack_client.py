@@ -24,10 +24,3 @@ class SlackClient(ChatClient):
     def join(self, channel):
         # self.client.join(channel)
         pass
-    
-
-
-if __name__ == "__main__":
-    slack = SlackClient()
-    slack.connect()
-    slack.client.chat_postMessage(channel='#bot-test', text="Guess who's back!")
