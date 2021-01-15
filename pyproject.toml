@@ -8,6 +8,7 @@ authors = ["Dario Thornhill <dario.thornhill@gmail.com>"]
 python = "^3.9"
 slackclient = "^2.9.3"
 python-dotenv = "^0.15.0"
+Flask = "^1.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.1"
