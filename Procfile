@@ -1,1 +1,1 @@
-web: python -m voluntold.slack_client
+web: gunicorn voluntold.server:app
