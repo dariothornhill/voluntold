@@ -1,1 +1,1 @@
-web: python -m voluntold.server
+web: gunicorn voluntold.server:app

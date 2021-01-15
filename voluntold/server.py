@@ -7,8 +7,9 @@ app = Flask(__name__)
 def proof_of_life():
     return 'It lives'
 
+slack = SlackClient()
+slack.connect()
+slack.client.chat_postMessage(channel='#bot-test', text="Guess who's back!")
+
 if __name__ == "__main__":
-    slack = SlackClient()
-    slack.connect()
-    slack.client.chat_postMessage(channel='#bot-test', text="Guess who's back!")
     app.run()
